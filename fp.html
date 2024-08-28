@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Advisory - Tenkasi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Farm Advisory - Tenkasi</h1>
+    </div>
+    
+    <div class="button-container">
+        <button class="button" onclick="window.location.href='sankarankovil/Sankarankovil.html'">Sankarankovil</button>
+        <button class="button" onclick="window.location.href='TENKASI/TENKASI.html'">Tenkasi</button>
+        <button class="button" onclick="window.location.href='Sivagiri/Sivagiri.html'">Sivagiri</button>
+        <button class="button" onclick="window.location.href='Kadayanallur/kadayanallur.html'">Kadayanallur</button>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Farm Advisory - Tenkasi. All rights reserved.
+    </div>
+
+    <script>
+        // Smooth scroll effect for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
