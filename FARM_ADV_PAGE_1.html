@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <link ref="stylesheet" href="FARMPAGE.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <meta name="description"  content="Farm advisory Application for Tenkasi District">
+     <meta name="author"  content="Venujayakanth, Lawerence, Pooja, Pavithra, Madhu, Jehin">
+<body style="align:center;" ><center>
+    <div class="container-fluid  p-5">
+    <header><div class="row text-danger display-6  px-5" style="background-color: aquamarine;text-align:center"> 
+         FARM ADVISORY MOBILE APPLICATION </div>
+        <div class="row"> <div class="col">
+        <a href="https://in.linkedin.com/in/venujayakanth-balakrishnan-406b301a4"> About US </a> </div>
+        <div class="col"> <a href="https://in.linkedin.com/in/venujayakanth-balakrishnan-406b301a4">Contacts </a></div><div class="col"> Contacts </div></div></div>
+    </header>
+    
+    <div  style ="background-color: rgb(131, 255, 127); ">
+          <ul>தென்காசி மாவட்டம் தமிழ்நாட்டின் முக்கியமான விவசாய மாகாணங்களில் ஒன்றாக இருக்கின்றது.
+             இங்கு விவசாயம் மூலமாக மக்கள் அதிகமாக வருமானம் பெற்று வருகின்றனர். 
+             தென்காசியில் விவசாயத்தின் முக்கிய அம்சங்கள் கீழ்க்காணுமாறு:
+            </ul><li>பண்ணை பயிர்கள்: தென்காசியில் எள்ளு, கம்பு, 
+                அரிசி மற்றும் பருத்தி போன்ற பண்ணை 
+                பயிர்கள் விரிவாக பயிர்க்கப்படுகின்றன.</li><li>
+                மண் மற்றும் குளம்: 
+                இந்த மாவட்டத்தின் மண் சலுகை மற்றும் குளம் வளமானது. 
+                இதனால் விவசாயத்திற்கு ஏற்ற சந்திரிகை நிலங்கள் உள்ளன
+                </li> </div>
+
+    <div >
+    <form action="D:\EDUREKA\FULL STACK\ML MODEL DEPLOYMENT\TEMPLATES\FARM_ADV_PAGE_2.html">
+            <input type="text" placeholder="Search for any Block" list="block">
+            <datalist id="block">
+                <option value = "Vasudevanallur">
+                    <option value = "Kadayanallur">
+                        <option value = "Tenkasi main">   
+                            <option value = "Sokkampatti"> 
+            </datalist>
+            <input type ="submit" value="Select">
+           
+    </form></div>
+<div>
+    <h1> Developers </h1>
+    <img width = 200 class="rounded-circle "src="D:/EDUREKA/FULL STACK/ZOMANTO.jpg"> 
+        <a href="https://in.linkedin.com/in/venujayakanth-balakrishnan-406b301a4"><h2  class="px-5"> Venu</h2> </a>
+        <p class="px-3"> He is working <span style="display: inline;" id="dots">
+            ...</span > <span style="display: none;" id = "more">a Assistant Professor in STAC
+        </span></p>
+        <button onclick="myfunctn()" id="mybtn" class ="px-5">Know more</button>
+    </div>
+       <div> <img width = 200 class="rounded-circle  px-2" src="D:/EDUREKA/FULL STACK/wea.jpg"> 
+    <a href="https://in.linkedin.com/in/venujayakanth-balakrishnan-406b301a4"><h2  class="px-5"> Venu 1</h2> </a>
+</div></div>
+</div>
+<script> 
+    function myfunctn() {
+        var dot = document.getElementById("dots");
+        var bttn = document.getElementById("mybtn");
+        var mre = document.getElementById("more");
+        if(dot.style.display =="inline"){
+            dot.style.display="none"
+            bttn.innerHTML="Know Less"
+            mre.style.display="inline"
+        }
+        else{
+            dot.style.display="inline"
+            bttn.innerHTML="Know more"
+            mre.style.display="none"
+        }
+    }
+</script>
+
+</div></center>
+</body>
+</head>
+</html>
